@@ -2537,28 +2537,10 @@
 		(uuid "21033c65-2037-4391-b8cf-053d4c3cb6de")
 	)
 	(junction
-		(at 52.07 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31c6da8f-990c-446b-b71d-3e019981c582")
-	)
-	(junction
-		(at 52.07 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c9e43b2-e468-4d4d-827d-70f665365b77")
-	)
-	(junction
 		(at 228.6 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e408552-e3e5-4121-9fa2-2e768257e29d")
-	)
-	(junction
-		(at 81.28 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68a76ab0-5c2c-41ee-bab7-7f0c862b08ed")
 	)
 	(junction
 		(at 254 35.56)
@@ -2577,12 +2559,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83f8784c-6e09-49ea-9b50-e9b2900096b6")
-	)
-	(junction
-		(at 81.28 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86dd6a9c-0acf-410c-8aa5-0a146186b670")
 	)
 	(junction
 		(at 81.28 60.96)
@@ -2666,7 +2642,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 35.56) (xy 81.28 35.56)
+			(xy 67.31 35.56) (xy 92.71 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2776,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 29.21) (xy 167.64 29.21)
+			(xy 162.56 34.29) (xy 167.64 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2926,17 +2902,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 27.94) (xy 59.69 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7368a7d3-e9b0-4136-9815-89d604c7175c")
-	)
-	(wire
-		(pts
-			(xy 40.64 27.94) (xy 52.07 27.94)
+			(xy 40.64 27.94) (xy 59.69 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3096,23 +3062,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 34.29) (xy 167.64 34.29)
+			(xy 162.56 39.37) (xy 167.64 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab26c6cb-55d6-44e9-9de0-2468fbb0e8dd")
-	)
-	(wire
-		(pts
-			(xy 81.28 27.94) (xy 92.71 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afc4379d-2d03-4d59-b3f6-ee8213922f66")
 	)
 	(wire
 		(pts
@@ -3176,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 35.56) (xy 67.31 35.56)
+			(xy 40.64 35.56) (xy 67.31 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3256,16 +3212,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 35.56) (xy 92.71 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e512e817-b224-43aa-a4ec-5adb686739c2")
-	)
-	(wire
-		(pts
 			(xy 67.31 172.72) (xy 67.31 177.8)
 		)
 		(stroke
@@ -3286,23 +3232,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 27.94) (xy 81.28 27.94)
+			(xy 74.93 27.94) (xy 92.71 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eb94124b-8044-4d39-9077-894f947e8cb6")
-	)
-	(wire
-		(pts
-			(xy 40.64 35.56) (xy 52.07 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecd329d3-f220-44bf-97c5-c33fdddf8af1")
 	)
 	(wire
 		(pts
@@ -3326,7 +3262,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 39.37) (xy 167.64 39.37)
+			(xy 162.56 29.21) (xy 167.64 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3336,7 +3272,7 @@
 	)
 	(global_label "3.3V_{1}"
 		(shape output)
-		(at 167.64 39.37 0)
+		(at 167.64 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3346,7 +3282,7 @@
 		)
 		(uuid "0430eb3f-5289-4853-b953-90c24de57600")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.756 39.37 0)
+			(at 175.756 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3446,7 @@
 			)
 		)
 	)
-	(global_label "STEP"
+	(global_label "DIR"
 		(shape output)
 		(at 88.9 152.4 0)
 		(fields_autoplaced yes)
@@ -3522,7 +3458,7 @@
 		)
 		(uuid "2f899802-757e-4fee-a145-cf82dc7996f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.4813 152.4 0)
+			(at 95.03 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3756,7 @@
 	)
 	(global_label "IO0"
 		(shape output)
-		(at 167.64 29.21 0)
+		(at 167.64 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3830,7 +3766,7 @@
 		)
 		(uuid "7393ec37-556b-4b33-acfc-12a1892e3e4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.77 29.21 0)
+			(at 173.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +3976,7 @@
 	)
 	(global_label "TXD0"
 		(shape input)
-		(at 167.64 34.29 0)
+		(at 167.64 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4050,7 +3986,7 @@
 		)
 		(uuid "aa5fb563-05a1-4051-8e78-3f0d89c06d83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2818 34.29 0)
+			(at 175.2818 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4150,7 @@
 			)
 		)
 	)
-	(global_label "DIR"
+	(global_label "STEP"
 		(shape output)
 		(at 88.9 154.94 0)
 		(fields_autoplaced yes)
@@ -4226,7 +4162,7 @@
 		)
 		(uuid "ccb55c17-42d4-49f3-b166-46c0c75eb1d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.03 154.94 0)
+			(at 96.4813 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Vertical"
 			(at 182.88 29.21 0)
 			(effects
 				(font
@@ -4644,7 +4580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-06A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
 			(at 157.48 31.75 0)
 			(effects
 				(font
@@ -4724,7 +4660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical"
 			(at 182.88 41.91 0)
 			(effects
 				(font
@@ -5072,7 +5008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical"
 			(at 182.88 54.61 0)
 			(effects
 				(font
@@ -5375,7 +5311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Vertical"
 			(at 157.48 49.53 0)
 			(effects
 				(font
@@ -5418,76 +5354,6 @@
 			(project ""
 				(path "/6f5a68a4-7cef-41e7-93e4-2e41665cfc17"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 81.28 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80db2e47-58a8-46dc-b9e1-967626e8b482")
-		(property "Reference" "C3"
-			(at 85.09 29.5909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22μF"
-			(at 85.09 32.1309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 82.2452 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 81.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ac68f78-ac3c-40ac-97b3-84553e2f288f")
-		)
-		(pin "2"
-			(uuid "a27a2d83-4603-4e44-9817-9d2e0a35e661")
-		)
-		(instances
-			(project "espSAT"
-				(path "/6f5a68a4-7cef-41e7-93e4-2e41665cfc17"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5766,76 +5632,6 @@
 			(project "espSAT"
 				(path "/6f5a68a4-7cef-41e7-93e4-2e41665cfc17"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 52.07 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af3851d5-e796-4e8b-bea3-26d04497c3f9")
-		(property "Reference" "C2"
-			(at 55.88 29.5909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10μF"
-			(at 55.88 32.1309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 53.0352 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 52.07 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5d9b195-ba92-4180-b725-924e5fb8b5a6")
-		)
-		(pin "2"
-			(uuid "88adf542-d051-4295-aa06-2c5d4b968d02")
-		)
-		(instances
-			(project "espSAT"
-				(path "/6f5a68a4-7cef-41e7-93e4-2e41665cfc17"
-					(reference "C2")
 					(unit 1)
 				)
 			)
