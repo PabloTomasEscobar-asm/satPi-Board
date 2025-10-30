@@ -3866,7 +3866,7 @@
 	)
 	(global_label "G3"
 		(shape output)
-		(at 88.9 134.62 0)
+		(at 88.9 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3876,7 +3876,7 @@
 		)
 		(uuid "8f34582c-8d9d-4020-bd12-cf3e4a31e6f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.3647 134.62 0)
+			(at 94.3647 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4042,7 @@
 	)
 	(global_label "G1"
 		(shape output)
-		(at 88.9 116.84 0)
+		(at 88.9 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4052,7 +4052,7 @@
 		)
 		(uuid "b2dd8bfc-ecee-47c1-a436-90d079b813d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.3647 116.84 0)
+			(at 94.3647 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
